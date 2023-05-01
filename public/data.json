@@ -1,0 +1,112 @@
+{
+  "incidents": [
+    {
+      "type": "accident",
+      "vehicle": {
+        "make": "Toyota",
+        "model": "Camry",
+        "color": "blue",
+        "license_plate": "ABC123"
+      },
+      "location": {
+        "latitude": 37.7749,
+        "longitude": -122.4194,
+        "address": "123 Main St, San Francisco, CA"
+      },
+      "datetime": {
+        "date": "2023-04-28",
+        "time": "10:15:00"
+      }
+    },
+    {
+      "type": "violation",
+      "vehicle": {
+        "make": "Ford",
+        "model": "F-150",
+        "color": "red",
+        "license_plate": "XYZ789"
+      },
+      "location": {
+        "latitude": 37.7749,
+        "longitude": -122.4194,
+        "address": "456 Market St, San Francisco, CA"
+      },
+      "datetime": {
+        "date": "2023-04-27",
+        "time": "14:30:00"
+      }
+    },
+    {
+      "type": "violation",
+      "vehicle": {
+        "make": "Honda",
+        "model": "Accord",
+        "color": "silver",
+        "license_plate": "123DEF"
+      },
+      "location": {
+        "latitude": 37.7881,
+        "longitude": -122.3994,
+        "address": "789 Union St, San Francisco, CA"
+      },
+      "datetime": {
+        "date": "2023-04-26",
+        "time": "08:45:00"
+      }
+    },
+    {
+      "type": "accident",
+      "vehicle": {
+        "make": "Nissan",
+        "model": "Altima",
+        "color": "white",
+        "license_plate": "DEF456"
+      },
+      "location": {
+        "latitude": 37.7829,
+        "longitude": -122.4222,
+        "address": "555 California St, San Francisco, CA"
+      },
+      "datetime": {
+        "date": "2023-04-25",
+        "time": "16:20:00"
+      }
+    },
+    {
+      "type": "violation",
+      "vehicle": {
+        "make": "Chevrolet",
+        "model": "Impala",
+        "color": "black",
+        "license_plate": "GHI789"
+      },
+      "location": {
+        "latitude": 37.7946,
+        "longitude": -122.4118,
+        "address": "101 Lombard St, San Francisco, CA"
+      },
+      "datetime": {
+        "date": "2023-04-24",
+        "time": "10:00:00"
+      }
+    },
+    {
+      "type": "accident",
+      "vehicle": {
+        "make": "BMW",
+        "model": "X5",
+        "color": "gray",
+        "license_plate": "JKL012"
+      },
+      "location": {
+        "latitude": 37.7838,
+        "longitude": -122.4312,
+        "address": "888 Brannan St, San Francisco, CA"
+      },
+      "datetime": {
+        "date": "2023-04-23",
+        "time": "20:45:00"
+      }
+    }
+  ]
+}
