@@ -1,6 +1,3 @@
-import ReactDOM from "react-dom";
-import { Bar, Doughnut } from "react-chartjs-2";
-import jsPDF from "jspdf";
 import "jspdf-autotable";
 
 function JSONToTable(props) {

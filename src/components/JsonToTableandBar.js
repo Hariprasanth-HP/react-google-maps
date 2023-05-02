@@ -1,10 +1,9 @@
 import { useState } from "react";
 import JSONToBarChart from "./JsonToBarChart";
-import JSONToTable from "./JsonToTable";
 import { Button } from "@mui/material";
 
 function JSONToTableAndBarChart(props) {
-  const { data, chartData } = props;
+  const { data } = props;
   const [showChart, setShowChart] = useState(false);
 
   return (
@@ -12,7 +11,7 @@ function JSONToTableAndBarChart(props) {
       <Button variant="contained" onClick={() => setShowChart(!showChart)}>
         Chart
       </Button>
-      {true && <JSONToBarChart data={data} />}
+      {showChart && <JSONToBarChart data={data} />}
     </div>
   );
 }
