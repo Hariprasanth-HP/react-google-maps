@@ -58,6 +58,7 @@ function JSONToBarChart(props) {
     });
   };
   const headers = Object.keys(data[0]);
+  console.log("data", data);
 
   return (
     <div>

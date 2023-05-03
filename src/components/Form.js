@@ -23,6 +23,7 @@ const AwsMap = () => {
       .catch((error) => console.error(error));
   }, []);
   console.log("data", data);
+  console.log("data", data);
 
   return (
     <div style={{ height: "100vh", width: "100%" }}>
