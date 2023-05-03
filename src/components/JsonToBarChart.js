@@ -1,10 +1,8 @@
-import ReactDOM from "react-dom";
-import { Bar, Doughnut } from "react-chartjs-2";
+import { Bar } from "react-chartjs-2";
 import jsPDF from "jspdf";
 import "jspdf-autotable";
 
 import html2canvas from "html2canvas";
-import { useRef, useState } from "react";
 import { Button } from "@mui/material";
 import { Chart, registerables } from "chart.js";
 Chart.register(...registerables);

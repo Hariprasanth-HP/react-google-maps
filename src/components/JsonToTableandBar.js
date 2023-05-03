@@ -4,7 +4,7 @@ import { Button } from "@mui/material";
 
 function JSONToTableAndBarChart(props) {
   const { data } = props;
-  const [showChart, setShowChart] = useState(false);
+  const [showChart, setShowChart] = useState(true);
 
   return (
     <div>

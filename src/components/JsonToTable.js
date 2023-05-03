@@ -3,7 +3,6 @@ import "jspdf-autotable";
 function JSONToTable(props) {
   const { data } = props;
   const headers = Object.keys(data[0]);
-
   return (
     <table style={{ width: "100%" }}>
       <thead>
